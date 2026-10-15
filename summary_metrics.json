@@ -1,0 +1,40 @@
+{
+  "selected_model": "trigram",
+  "test_autocomplete": [
+    {
+      "Model": "Bigram",
+      "Samples": 2136,
+      "Top3_Hits": 539,
+      "Precision_at_3": 0.08411360799001248,
+      "Recall_at_3": 0.25234082397003743,
+      "Hit_at_3": 0.25234082397003743
+    },
+    {
+      "Model": "Trigram",
+      "Samples": 2136,
+      "Top3_Hits": 587,
+      "Precision_at_3": 0.09160424469413234,
+      "Recall_at_3": 0.274812734082397,
+      "Hit_at_3": 0.274812734082397
+    }
+  ],
+  "autocorrect": [
+    {
+      "Model": "Identity baseline",
+      "Samples": 120,
+      "Accuracy": 0.5,
+      "Weighted_Precision": 0.5,
+      "Weighted_Recall": 0.5
+    },
+    {
+      "Model": "Edit-distance autocorrect",
+      "Samples": 120,
+      "Accuracy": 0.9583333333333334,
+      "Weighted_Precision": 0.9583333333333334,
+      "Weighted_Recall": 0.9583333333333334
+    }
+  ],
+  "typo_only_accuracy": 0.9166666666666666,
+  "correction_detection_precision": 1.0,
+  "correction_detection_recall": 1.0
+}
